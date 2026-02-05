@@ -1,0 +1,32 @@
+$(function(){
+    $('#menu').slicknav({
+        'label':'',
+        'brand':'Freeeze',
+    });
+});
+
+$(document).ready(function(){
+   $('.expnd').click(function(){
+    $('.prodt').slideDown(300);
+    $('.expnd').css('display','none');
+    $('.collap').css('display',"inline-block");
+   });
+   $('.collap').click(function(){
+    $('.prodt').slideUp(300);
+    $('.collap').css('display','none');
+    $('.expnd').css('display',"inline-block");
+   });
+    });
+$(document).ready(function(){
+   $('.expnd1').click(function(){
+    $('.singlepost').slideDown(300);
+    $('.expnd1').css('display','none');
+    $('.collap1').css('display',"inline-block");
+   });
+   $('.collap1').click(function(){
+    $('.singlepost').slideUp(300);
+    $('.collap1').css('display','none');
+    $('.expnd1').css('display',"inline-block");
+   });
+});
+
