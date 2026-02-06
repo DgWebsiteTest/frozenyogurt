@@ -211,7 +211,7 @@
     margin:0;
 }
 #blogs .blogs-info a{
-    background: url(Image/icons.png)no-repeat;
+    background: url(image/icons.png)no-repeat;
     display:block;
     width:75px;
     height:50px;
@@ -571,3 +571,4 @@ a{
     text-decoration: none;
     display:inline-block;
 }
+
